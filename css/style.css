@@ -4,6 +4,47 @@ amarillo #FFCC00
 naranja #E8940C
 rojo #FF5D00 */
 
+#winImg{
+    width: 0%;
+    position: fixed;
+    /* left: right; */
+    left: 50%;
+    transform: translateX(-50%);
+
+    top: 90px;
+    z-index: 3;
+}
+#lossImg{
+    width: 0%;
+    position: fixed;
+    /* left: right; */
+    left: 50%;
+    transform: translateX(-50%);
+
+    top: 90px;
+    z-index: 3;
+}
+#introImg{
+    width: 100%;
+    position: fixed;
+    /* left: right; */
+    left: 50%;
+    transform: translateX(-50%);
+
+    top: 90px;
+    z-index: 3;
+}
+#introImg2{
+    width: 100%;
+    position: fixed;
+    /* left: right; */
+    left: 50%;
+    transform: translateX(-50%);
+
+    top: 90px;
+    z-index: 2;
+}
+
 #audio{
     display: none
     }
@@ -11,9 +52,6 @@ rojo #FF5D00 */
     display: none
     }
 #taps{
-    display: none
-    }
-#win{
     display: none
     }
 
@@ -145,6 +183,7 @@ z-index: 1000;
     /* width: 300px; */
     /* border: 1px yellow solid; */
   touch-action: manipulation;
+    z-index: 1;
 }
 .button {
     padding: 0;
@@ -166,6 +205,18 @@ z-index: 1000;
     margin: 0;
     /* margin: 0 auto; */
 }
+.buttito {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 1005px;
+    border: 1px red solid;
+    border-radius: 10%;
+    padding: 0;
+    margin: 0;
+    /* margin: 0 auto; */
+}
 .butt {
     width: 90%;
     height: 90%;
@@ -179,6 +230,7 @@ z-index: 1000;
 #plagiForest {
     border: #216E00 5px solid;
     display: flex;
+    width: 100%;
     /* justify-self: center; */
 }
 
