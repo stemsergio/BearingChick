@@ -1,4 +1,4 @@
-# maternidad
+final name: Bearing Chick
 ---ESPAÑOL--- Primer juego de Plagiamón, espanta a los osos en 10 segundos. 
 
 ---ENGLISH--- First Plagiamón game, scare bears under 10 seconds.
